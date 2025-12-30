@@ -7,7 +7,7 @@ from table_schema import SCHEMA
 
 class NotionInterface:
     def __init__(self):
-        self.token_v2 = TOKEN_V2
+        self.token_v2 = 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
         self.client = NotionClient(token_v2=self.token_v2)
         self.strava_page_title = "Strava"
         self.strava_table_title = "Activity Logbook"
