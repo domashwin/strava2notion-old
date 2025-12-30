@@ -4,7 +4,7 @@ from stravaio import StravaIO
 from config import CLIENT_ID, CLIENT_SECRET
 from notion_api import NotionInterface
 
-token = strava_oauth2(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
+token = strava_oauth2(client_id=192679, client_secret=619046f4581ee532585919dc0695401d4ce756f7)
 
 # Get Strava Data
 client = StravaIO(access_token=token["access_token"])
